@@ -1,0 +1,13 @@
+[project]
+name = "bot_whatsapp"
+version = "0.1.0"
+dependencies = [
+    "playwright>=1.44",
+]
+
+[project.scripts]
+run-bot = "bot_whatsapp.scripts.run_bot:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
