@@ -1,0 +1,56 @@
+storage_state.json
+.env
+.env.*
+__pycache__/
+*.pyc
+playwright.log
+.local/
+~/.cache/
+/.cache/
+.cache/
+ms-playwright/
+~/.cache/ms-playwright.
+/.cache/ms-playwright.
+.cache/ms-playwright.
+cache/ms-playwright.
+
+# Entornos virtuales
+venv/
+.env/
+.venv/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos de compilación
+build/
+dist/
+
+# Archivos de instalación y metadatos
+*.egg-info/
+.eggs/
+
+# Dependencias generadas automáticamente (lockfiles si los usás)
+poetry.lock
+pdm.lock
+requirements.txt
+
+# Archivos de Playwright (descargas y estado)
+playwright/.cache/
+playwright/.downloads/
+playwright-report/
+trace.zip
+
+# Archivos del sistema/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
