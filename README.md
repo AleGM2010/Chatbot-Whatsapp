@@ -27,10 +27,11 @@ pyproject.toml
 README.md
 ```
 
-🧰 Requisitos
+# 🧰 Requisitos
 
 Python 3.10 o superior
 Un navegador compatible con Playwright (se instala automáticamente con playwright install)
+
 Dependencias:
 
 playwright
@@ -38,7 +39,7 @@ Otras especificadas en pyproject.toml
 
 
 
-## 🚀 Instalación y ejecución
+## 🚀 Instalación 
 
 ```bash
 clone https://github.com/AleGM2010/bot-whatsapp.git
@@ -49,12 +50,11 @@ pip install -e .
 playwright install
 ```
 
-## Ejecuta el bot:
+## Ejecuta el bot en la terminal con UNO de estos
 - run-bot
-## O directamente:
 - python bot_whatsapp/scripts/run_bot.py
 
-## 🛠️ Uso
+# 🛠️ Uso del programa
 
 - Ejecuta el script run_bot.py.
 - Escanea el código QR que aparece en WhatsApp Web cuando se abra el navegador.
@@ -62,9 +62,11 @@ playwright install
 - Selecciona manualmente el chat que deseas monitorear y presiona ENTER.
 - El bot responderá automáticamente a los mensajes entrantes según las reglas definidas en logic.py.
 
-🔧 Personalización
+
+## 🔧 Personalización
 
 Respuestas personalizadas: Crea una nueva clase que herede de IResponseLogic en logic.py para definir respuestas específicas por cliente.
+
 Interfaz alternativa: Implementa una nueva clase para IWhatsAppInterface en interface.py para soportar otras plataformas o métodos de interacción.
 
 
