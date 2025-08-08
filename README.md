@@ -39,11 +39,10 @@ Otras especificadas en pyproject.toml
 
 
 
-## 🚀 Instalación 
+## 🚀 Instalación (Crea una carpeta contenedora primero)
 
 ```bash
-clone https://github.com/AleGM2010/bot-whatsapp.git
-cd bot-whatsapp
+git clone https://github.com/AleGM2010/bot-whatsapp.git
 python -m venv venv
 venv\Scripts\activate
 pip install -e .
